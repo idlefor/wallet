@@ -10,9 +10,11 @@ Other considerations
 • You do need to worry about replenishment of coins;
 • You have to implement in Java 8 (and above); and
 • You can use any IDE of your choice for the implementation.
+
 Test Cases to Fulfil (Required to Demo) User What should happen Output
 Initialize the db with a set of coins 2, 3, 1, 2, 1 through a call to the REST endpoint
 Springboot persist the coins in the h2 DB
+
 Success
 The user reads the contents of the wallet from springboot through a call to the REST endpoint
 Coins are re-ordered and output the contents of the wallet
@@ -40,8 +42,3 @@ Pay with more than what you have in your wallet -> Pay(5)
 Failure and an appropriate error is thrown
 You do not have sufficient coins to pay 5.
 My current coins are [2]
-Preparation for the code review interview
-• Push your code to a public repo and share with the interviewers prior to the interview (preferably 1 or 2 days before);
-• Be able to explain the different cases (edge) considered during implementation;
-• Be able to walk through and explain how you structure your code; and
-• Be ready to demonstrate running the application and executing the test cases in the table above one at a time to the interviewer(s). The interview will be conducted through a video call.
