@@ -5,6 +5,7 @@ This is a very simple wallet function. The user is expected to implement a sprin
 • Take in a set of discrete integers each representing a discrete cash through a REST call and saved them into a Database (H2);
 • Through a call to the REST endpoint, print out the set of discrete integers currently in the Database; and
 • Through a call to the REST endpoint, pay a value (integer) (and updating the discrete cash in the Database)
+
 Other considerations
 • In your code, you should be able to demonstrate use of Unit Tests in consideration of different edge cases;
 • You do need to worry about replenishment of coins;
