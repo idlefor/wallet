@@ -1,22 +1,22 @@
-# wallet
 Digital Wallet Assignment
-Brief
+
+# Brief
 This is a very simple wallet function. The user is expected to implement a springboot implementation connected to a H2 DB with RESTful endpoints that can perform the following:
-• Take in a set of discrete integers each representing a discrete cash through a REST call and saved them into a Database (H2);
-• Through a call to the REST endpoint, print out the set of discrete integers currently in the Database; and
-• Through a call to the REST endpoint, pay a value (integer) (and updating the discrete cash in the Database)
+1. Take in a set of discrete integers each representing a discrete cash through a REST call and saved them into a Database (H2);
+2. Through a call to the REST endpoint, print out the set of discrete integers currently in the Database; and
+3. Through a call to the REST endpoint, pay a value (integer) (and updating the discrete cash in the Database)
 
-Other considerations
-• In your code, you should be able to demonstrate use of Unit Tests in consideration of different edge cases;
-• You do need to worry about replenishment of coins;
-• You have to implement in Java 8 (and above); and
-• You can use any IDE of your choice for the implementation.
+# Other considerations
+1. In your code, you should be able to demonstrate use of Unit Tests in consideration of different edge cases;
+2. You do need to worry about replenishment of coins;
+3. You have to implement in Java 8 (and above); and
+4. You can use any IDE of your choice for the implementation.
 
-Test Cases to Fulfil (Required to Demo) User What should happen Output
+# Test Cases to Fulfil (Required to Demo) User What should happen Output
 Initialize the db with a set of coins 2, 3, 1, 2, 1 through a call to the REST endpoint
 Springboot persist the coins in the h2 DB
 
-Success
+# Success
 The user reads the contents of the wallet from springboot through a call to the REST endpoint
 Coins are re-ordered and output the contents of the wallet
 My current coins are [1, 1, 2, 2, 3]
